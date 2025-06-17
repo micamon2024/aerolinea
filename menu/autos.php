@@ -1,4 +1,7 @@
-<?php include('../estructura/cabecera.php'); ?>
+<?php include('../estructura/cabecera.php');
+
+
+?>
 
 <!-- Carrusel -->
 <div class="container py-5">
