@@ -1,10 +1,11 @@
 <?php
 
-// Datos de conexión (idealmente desde .env)
-$host = getenv('DB_HOST') ?: "localhost";
-$bd = getenv('DB_NAME') ?: "aerolinea";
-$usuario = getenv('DB_USER') ?: "root";
-$contrasenia = getenv('DB_PASS') ?: "";
+// Configuración de la base de datos
+define('DB_HOST', 'sql305.infinityfree.com');
+define('DB_NAME', 'if0_39253986_aerolinea');
+define('DB_USER', 'if0_39253986');
+define('DB_PASS', 'xVfuXVHOwUCqf');
+define('DB_CHARSET', 'utf8mb4');
 
 try {
     $conexion = new PDO("mysql:host=$host;dbname=$bd;charset=utf8", $usuario, $contrasenia);
