@@ -2,10 +2,12 @@
 define("KEY", "aerolinea");
 define("COD", "AES-128-ECB");
 
-$host="localhost"; // El servidor de la base de datos
-$bd="aerolinea"; // El nombre de la base de datos
-$usuario="root"; // El usuario de la base de datos
-$contrasenia=""; // La contraseña (en este caso está vacía)
+// Configuración de la base de datos
+define('DB_HOST', 'sql210.infinityfree.com');
+define('DB_NAME', 'if0_39256117_aerolinea');
+define('DB_USER', 'if0_39256117');
+define('DB_PASS', 'SNRJftW03TQ');
+define('DB_CHARSET', 'utf8mb4');
 
 try {
     $conexion= new PDO ("mysql:host=$host;dbname=$bd", $usuario, $contrasenia);

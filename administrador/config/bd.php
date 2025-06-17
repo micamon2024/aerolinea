@@ -1,10 +1,10 @@
 <?php
 
 // Configuración de la base de datos
-define('DB_HOST', 'sql305.infinityfree.com');
-define('DB_NAME', 'if0_39253986_aerolinea');
-define('DB_USER', 'if0_39253986');
-define('DB_PASS', 'xVfuXVHOwUCqf');
+define('DB_HOST', 'sql210.infinityfree.com');
+define('DB_NAME', 'if0_39256117_aerolinea');
+define('DB_USER', 'if0_39256117');
+define('DB_PASS', 'SNRJftW03TQ');
 define('DB_CHARSET', 'utf8mb4');
 
 try {

@@ -2,7 +2,7 @@
 
 <?php
 // Conexión con la base de datos
-$conexion = new mysqli("sql305.infinityfree.com", "if0_39253986", "", "if0_39253986_aerolinea");
+$conexion = new mysqli("sql210.infinityfree.com", "if0_39256117", "SNRJftW03TQgit", "if0_39253986_aerolinea");
 if ($conexion->connect_error) {
     die("Error de conexión: " . $conexion->connect_error);
 }
